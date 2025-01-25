@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../assets/nike.png"
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center  font-bold px-8'>
+    <div className='flex justify-between items-center  font-bold px-8 cursor-default'>
       <div className='cursor-pointer '><img src={logo} alt="" className='w-16'/></div>
       <ul className='max-md:hidden flex gap-8'>
         <a href="" className='cursor-pointer hover:underline'><li>New</li></a>
