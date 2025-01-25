@@ -10,7 +10,7 @@ const Newarival = () => {
       <div className='cursor-pointer'>
       <img src={shoe4}alt="" className='w-full h-[700px] top-3 object-none' />
       <h1 className='font-bold mt-16 text-7xl max-md:text-5xl'>RETRO RUNNER</h1>
-      <p className="font-medium  text-lg mt-4 break-words">Rooted in running, remastered for style. This collectionof iconic retro runners is back with more colors, finishes, and edge to elevate your fit.</p>
+      <p className="font-medium  text-lg mt-4 mx-16">Rooted in running, remastered for style. This collectionof iconic retro runners is back with more colors, finishes, and edge to elevate your fit.</p>
       </div>
 
     <button className="bg-black text-white font-bold px-4 py-1 rounded-full mt-4 hover:bg-gray-700 ">Shop</button>
@@ -61,7 +61,7 @@ const Newarival = () => {
 
     <div className='text-center mt-16 cursor-pointer'>
     <h1 className='font-bold text-7xl max-md:text-5xl'>RUN THROUGH WINTER</h1>
-      <p className=" font-medium text-lg mt-4 break-words">Essentials engineerd to keep runner dry, warm and focused on their New Year's goals.</p>
+      <p className=" font-medium text-lg mt-4 mx-16">Essentials engineerd to keep runner dry, warm and focused on their New Year's goals.</p>
     </div>
 
     <button className="bg-black text-white font-bold px-4 py-1 rounded-full mt-4 hover:bg-gray-700 ">Shop</button>
