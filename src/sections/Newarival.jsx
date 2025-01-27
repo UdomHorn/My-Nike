@@ -6,9 +6,9 @@ import pic4 from "../assets/pic1.jpg"
 import shoe4 from "../assets/shoe4.jpg"
 const Newarival = () => {
   return (
-    <div className='text-center mt-12 cursor-default'>
+    <div className='text-center cursor-default'>
       <div className='cursor-pointer'>
-      <img src={shoe4}alt="" className='w-full h-[700px] top-3 object-none' />
+      <img src={shoe4}alt="" className='w-full h-[700px]  object-none' />
       <h1 className='font-bold mt-16 text-7xl max-md:text-5xl'>RETRO RUNNER</h1>
       <p className="font-medium  text-lg mt-4 mx-16">Rooted in running, remastered for style. This collectionof iconic retro runners is back with more colors, finishes, and edge to elevate your fit.</p>
       </div>
