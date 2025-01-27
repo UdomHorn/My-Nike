@@ -22,10 +22,11 @@ const Navbar = () => {
       </div>
       
         
-      <ul className= {`absolute top-0 h-full w-full left-56 text-start pl-8 md:hidden   text-2xl font-semibold bg-white list-none flex flex-col gap-5 ${showMenu ? "opacity-100": "opacity-0"}`}>
+      <div className= {`  bg-sky-400 sm:hidden absolute list-none  pl-8  h-full w-[350px] right-0  top-16 ${showMenu ? "opacity-100": "opacity-0"}`}>
 
-      <i className="bx bx-x cursor-pointer  hover:rounded-full text-4xl text-center p-5 "onClick={()=>setShowMenu(!showMenu)} title='main'></i>
+      <i className={`bx bx-x cursor-pointer  hover:rounded-full text-4xl  bg-red-500 mb-5 absolute right-0   "  `} onClick={()=>setShowMenu(!showMenu)} title='main'></i>
 
+      <ul className='flex flex-col gap-5 text-2xl font-semibold mt-20'>
       <a href="" className='cursor-pointer hover:text-gray-500 '  title='main'><li>New</li></a>
         <a href="" className='cursor:pointer hover:text-gray-500'  title='main'><li>Men</li></a>
         <a href="" className='cursor:pointer hover:text-gray-500'  title='main'><li>Women</li></a>
@@ -33,6 +34,9 @@ const Navbar = () => {
         <a href="" className='cursor:pointer hover:text-gray-500'  title='main'><li>Jordan</li></a>
         <a href="" className='cursor:pointer hover:text-gray-500'  title='main'><li>Sale</li></a>
       </ul>
+
+
+      </div>
       
 
         
