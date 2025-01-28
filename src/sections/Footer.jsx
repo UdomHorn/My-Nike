@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-
+import React from 'react';
+import { useState } from 'react';
 const Footer = () => {
   const [isTextOpen, setIsTextOpen] = useState(false);
   return (
@@ -145,12 +145,9 @@ const Footer = () => {
           </div>
       </div>
 
-
-
-
       </div>
-
-
+      
+      
 
     </footer>
   )
